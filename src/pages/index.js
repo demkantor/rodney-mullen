@@ -1,12 +1,12 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from 'react';
+import Helmet from 'react-helmet';
 
-import Gallery from '../components/Gallery'
-import Layout from '../components/layout'
+import Gallery from '../components/Gallery';
+import Layout from '../components/layout';
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Rodney Mullen';
+  const siteDescription = 'Biography of Rodney Mullen';
 
   return (
     <Layout>
@@ -129,6 +129,6 @@ const HomeIndex = () => {
       </div>
     </Layout>
   )
-}
+};
 
-export default HomeIndex
+export default HomeIndex;

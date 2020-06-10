@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => (
   <div id="footer">
@@ -26,13 +26,13 @@ const Footer = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>&copy; demkantor</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          contact me 
         </li>
       </ul>
     </div>
   </div>
-)
+);
 
-export default Footer
+export default Footer;
